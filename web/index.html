@@ -24,7 +24,7 @@
             </div>
     
             <transition name="fadeIn">
-                <div v-if="schermata=='login'" class="schermataLogin">
+                <div v-if="schermata=='login' && config!=false" class="schermataLogin">
                     <div class="accessoOperatore">{{config.Translate.access_officer}}</div>
                 
                     <div class="credentials">
